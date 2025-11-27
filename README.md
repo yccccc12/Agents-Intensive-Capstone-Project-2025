@@ -183,14 +183,16 @@ cd Agents-Intensive-Capstone-Project-2025
 ### 2. Project Structure
 ```
 Agents-Intensive-Capstone-Project-2025/
-├── hr_agent/
+├── assets/                    # Images and diagrams used in the documentation
+├── hr_agent/                  
 │   ├── sub_agents/            # Collection of sub-agents
-│   ├── agent.py               # Agent definition
+│   ├── agent.py               # Main HR agent definition
 │   └── prompt.py              # Prompt Template for each agents
-├── assets/                    # Architecture diagrams and images
-├── pyproject.toml             # Project dependencies
-├── uv.lock                    # Lock file for reproducible builds
-└── README.md                  # Documentation
+├── .env.example               # Example environment variables
+├── .gitignore
+├── README.md                  # Project documentation
+├── pyproject.toml             # Project dependencies and settings
+└── uv.lock                    # Lock file for reproducible builds
 ```
 
 ### 3. Install uv (if not installed)
